@@ -1,0 +1,15 @@
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\bin\Debug\net6.0\CorsoCSharp.exe
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\bin\Debug\net6.0\CorsoCSharp.deps.json
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\bin\Debug\net6.0\CorsoCSharp.runtimeconfig.json
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\bin\Debug\net6.0\CorsoCSharp.dll
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\bin\Debug\net6.0\CorsoCSharp.pdb
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.csproj.AssemblyReference.cache
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.AssemblyInfoInputs.cache
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.AssemblyInfo.cs
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.dll
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\refint\CorsoCSharp.dll
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.pdb
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\CorsoCSharp.genruntimeconfig.cache
+C:\Users\osp99100640\source\repos\Corso-CSharp\CorsoCSharp\obj\Debug\net6.0\ref\CorsoCSharp.dll
