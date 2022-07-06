@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CoreMVC\\CoreMVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\ClassLibrary\\ClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\ClassLibrary\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\ClassLibrary\\ClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\nclru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\ClassLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nclru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CoreMVC\\CoreMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CoreMVC\\CoreMVC.csproj",
+        "projectName": "CoreMVC",
+        "projectPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CoreMVC\\CoreMVC.csproj",
+        "packagesPath": "C:\\Users\\nclru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CoreMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nclru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CorsoCSharp\\CorsoCSharp.csproj": {
+                "projectPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CorsoCSharp\\CorsoCSharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CorsoCSharp\\CorsoCSharp.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CorsoCSharp\\CorsoCSharp.csproj",
+        "projectName": "CorsoCSharp",
+        "projectPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CorsoCSharp\\CorsoCSharp.csproj",
+        "packagesPath": "C:\\Users\\nclru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\CorsoCSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nclru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\nclru\\source\\repos\\Corso-CSharp\\ClassLibrary\\ClassLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, BuildTransitive",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

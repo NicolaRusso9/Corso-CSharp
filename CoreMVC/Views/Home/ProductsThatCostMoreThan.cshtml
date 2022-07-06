@@ -1,0 +1,42 @@
+﻿@using CorsoCSharp.EFCore.AutoGenModels
+@model IEnumerable<Product>
+@{
+    string title = "Product that cost more than " + ViewData["MaxPrice"];
+    ViewData["Title"] = title;
+}
+
+<h2>@title</h2>
+@if(Model is null){
+    <div> No products found. </div>
+}
+else{
+    <table>
+        <thead>
+            <tr>
+                <th>Category name</th>
+                <th>Product name</th>
+                <th>Unit price</th>
+                <th>Units in stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Product p in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => p.Category!.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => p.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => p.UnitPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => p.UnitsInStock)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,65 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nclru\source\repos\Corso-CSharp\CorsoCSharp\bin\Release\net6.0\a7b2b59b-b7e1-48b2-9e1a-876d6f63e844
+// command took 0,23s and exited with 1
+// ***** Done, took 00:00:00 (0.45 sec)   *****
+// Found 2 benchmarks:
+//   _54_StringBenchmark.StringConcatenationTest: DefaultJob
+//   _54_StringBenchmark.StringBuilderTest: DefaultJob
+
+// Build Error: Standard output: 
+  
+ Standard error: 
+ 
+
+// BenchmarkDotNet has failed to build the auto-generated boilerplate code.
+// It can be found in C:\Users\nclru\source\repos\Corso-CSharp\CorsoCSharp\bin\Release\net6.0\a7b2b59b-b7e1-48b2-9e1a-876d6f63e844
+// Please follow the troubleshooting guide: https://benchmarkdotnet.org/articles/guides/troubleshooting.html
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\CorsoCSharp._54_StringBenchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\CorsoCSharp._54_StringBenchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\CorsoCSharp._54_StringBenchmark-report.html
+
+// * Detailed results *
+_54_StringBenchmark.StringConcatenationTest: DefaultJob
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+11th Gen Intel Core i7-11700K 3.60GHz, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=6.0.301
+  [Host] : .NET 6.0.6 (6.0.622.26707), X64 RyuJIT  [AttachedDebugger]
+
+
+|                  Method | Mean | Error | Ratio | RatioSD |
+|------------------------ |-----:|------:|------:|--------:|
+| StringConcatenationTest |   NA |    NA |     ? |       ? |
+
+Benchmarks with issues:
+  _54_StringBenchmark.StringConcatenationTest: DefaultJob
+
+// * Warnings *
+BaselineCustomAnalyzer
+  Summary -> A question mark '?' symbol indicates that it was not possible to compute the (Ratio, RatioSD) column(s) because the baseline value is too close to zero.
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Legends *
+  Mean    : Arithmetic mean of all measurements
+  Error   : Half of 99.9% confidence interval
+  Ratio   : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ns    : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:00 (0.34 sec), executed benchmarks: 0
+
+Global total time: 00:00:00 (0.8 sec), executed benchmarks: 0
+// * Artifacts cleanup *

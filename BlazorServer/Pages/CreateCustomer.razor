@@ -1,0 +1,21 @@
+﻿@page "/createcustomer"
+@using BlazorServer.Data
+@inject INorthwindService service
+@inject NavigationManager navigation
+
+<h3>CreateCustomer</h3>
+
+@*Sto richiamando il form creato nella customer detail *@
+<CustomerDetail ButtonText="Create Customer"
+    Customer="@customer"
+    OnValidSubmit="@Create" />
+
+@code {
+    private Customer customer = new();
+
+    private async Task Create()
+    {
+        await service.CreateCustomersAsync(customer);
+        navigation.NavigateTo("customers");
+    }
+}

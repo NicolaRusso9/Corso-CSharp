@@ -1,0 +1,7 @@
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.AssemblyInfoInputs.cache
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.AssemblyInfo.cs
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.csproj.CoreCompileInputs.cache
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.RazorAssemblyInfo.cache
+C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\obj\Debug\net6.0\PraticalApps.RazorAssemblyInfo.cs

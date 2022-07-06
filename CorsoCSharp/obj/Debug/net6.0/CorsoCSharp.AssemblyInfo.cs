@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CorsoCSharp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LeakSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CorsoCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CorsoCSharp")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
 

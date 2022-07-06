@@ -1,10 +1,40 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>enable</Nullable>										<!-- Abilita i valori nullable nel codice -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>     <!-- Genera la documentazione dei files -->
+	<PublishTrimmed>true</PublishTrimmed>							<!-- Rimuove Tipi, Membri e Metodi inutilizzati dall'assembly per ridurre le dimensioni del pacchetto alla sua pubblicazione -->
+	<TrimMode>Link</TrimMode>										<!-- Default trim mode -->
+
+	  <!--<EnablePreviewFeatures>true</EnablePreviewFeatures>			 Abilita lefunzioni di preview. Le funzioni di preview non funzionano su codice di produzione -->
+	  <!--<LangVersion>preview</LangVersion>							 Sul metodo aggiungere         [RequiresPreviewFeatures] -->
+
+	  <Version>2.0.0</Version>
+	  <Company>LeakSystem</Company>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	  <PackageReference Include="xunit" Version="2.4.1" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.0" />		<!-- Needed for lazy loading -->
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.6" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.NET.Test.sdk" Version="17.2.0" />
+	  <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
+	  <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />							<!-- Needed for StringBenchmark -->
+	  <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+		  <IncludeAssets>runtime;build;native;contentfiles;analyzer;buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" /> <!-- Aggiunge un riferimento ad una libreria -->
+	  <Using Include="CorsoCSharp" />                   <!-- Aggiunge una global using nel file: C:\Users\nclru\source\repos\Corso-CSharp\CorsoCSharp\obj\VERSION\net6.0\CorsoCSharp.GlobalUsings.g.cs -->
+  </ItemGroup>
 
 </Project>

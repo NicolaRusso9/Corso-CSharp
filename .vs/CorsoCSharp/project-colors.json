@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8fdbec0-7ac6-495a-b514-1134fc4db712": {
+      "ProjectGuid": "c8fdbec0-7ac6-495a-b514-1134fc4db712",
+      "DisplayName": "CorsoCSharp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "File esterni",
+      "ColorIndex": -1
+    },
+    "d78e3d25-f17c-4239-b89a-210d2727dcc2": {
+      "ProjectGuid": "d78e3d25-f17c-4239-b89a-210d2727dcc2",
+      "DisplayName": "ClassLibrary",
+      "ColorIndex": 1
+    },
+    "d2e3587a-3434-442d-ad54-9748bb56117e": {
+      "ProjectGuid": "d2e3587a-3434-442d-ad54-9748bb56117e",
+      "DisplayName": "LibraryNetStandard2",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

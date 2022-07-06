@@ -1,0 +1,41 @@
+﻿@using CorsoCSharp.EFCore.AutoGenModels
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Customer>
+
+<h2>@ViewData["Title"]</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Company Name</th>
+            <th>Contact Name</th>
+            <th>Address</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Customer customer in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model=> customer.CompanyName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=> customer.ContactName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=> customer.Address)
+                    @Html.DisplayFor(model=> customer.City)
+                    @Html.DisplayFor(model=> customer.Region)
+                    @Html.DisplayFor(model=> customer.Country)
+                    @Html.DisplayFor(model=> customer.PostalCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=> customer.Phone)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+﻿@page       
+
+@functions{
+    public string? DayName { get; set; }
+
+    public void OnGet()
+    {
+        ViewData["title"] = "northwind b2b";
+
+        Model.DayName = DateTime.Now.ToString("dddd");
+    }
+}
+
+<p> It's @Model.DayName! Our customer include restaurants, hotels and cruise lines.</p>
+
+<p><a href="suppliers">Learn more about our suppliers</a></p>

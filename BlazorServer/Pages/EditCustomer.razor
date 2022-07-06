@@ -1,0 +1,32 @@
+﻿@page "/editcustomer/{customerid}"
+@using BlazorServer.Data
+@inject INorthwindService service
+@inject NavigationManager navigation
+
+<h3>CreateCustomer</h3>
+
+@*Sto richiamando il form creato nella customer detail *@
+<CustomerDetail ButtonText="Update Customer"
+    Customer="@customer"
+    OnValidSubmit="@Update" />
+
+@code {
+    [Parameter]
+    public string CustomerId { get; set; }
+
+    private Customer? customer = new();
+
+    protected async override Task OnParametersSetAsync()
+    {
+        customer = await service.GetCustomerAsync(CustomerId);
+    }
+
+    private async Task Update()
+    {
+        if(customer is not null)
+        {
+            await service.UpdateCustomersAsync(customer);
+        }
+        navigation.NavigateTo("customers");
+    }
+}

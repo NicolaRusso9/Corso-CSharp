@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CorsoCSharp</name>
+    </assembly>
+    <members>
+        <member name="M:CorsoCSharp._09_XMLDocumentation.FunzioneProva(System.Int32)">
+            <summary>
+            Questo è un esempio di commento XML.
+            </summary>
+            <param name="number">Number è un numero intero es. 1,2,3 etc....</param>
+            <returns>Number viene restituito come testo.</returns>
+        </member>
+        <member name="T:CorsoCSharp.IntAndString">
+            <summary>
+            Creazione del complex type per un return multiplo.
+            </summary>
+        </member>
+        <member name="M:CorsoCSharp._14_ReturnMultipeValue_Tuple.DueValoriTUPLA">
+            <summary>
+            Funzione con valori di ritorno TUPLA.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CorsoCSharp._14_ReturnMultipeValue_Tuple.DueValoriTUPLANaming">
+            <summary>
+            Funzione con valori di ritorno TUPLA e viene assegnato un nome ai valori.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CorsoCSharp._15_FunctionParam.PassingParameters(System.Int32,System.Int32@,System.Int32@,System.Int32)">
+            <summary>
+            Method with same name but with different sign. This is an overload.
+            </summary>
+            <param name="x">variabile passata per valore, la sua modifica non comporta modifiche nella variabile originale.</param>
+            <param name="y">variabile passata per riferimento, la sua modifica comporta modifiche nella variabile originale.</param>
+            <param name="z">variabile passata per riferimento, la sua modifica è richiesta in quanto viene riconosciuto come parametro di output.</param>
+            <param name="optional"> This variable is optional because it have declared defualt value. Optional params must be at last of the list of the method's param.</param>
+        </member>
+        <member name="T:CorsoCSharp._19_RecordsInit">
+            <summary>
+            Record key word set and immutable object like init on property.
+            Nothing on record must be change its value after initialization.
+            Record, like a class, is reference type. This mean that the memory for the object is allocated on the heap, only memory address is stored on the stack.
+            </summary>
+        </member>
+        <member name="M:CorsoCSharp._19_RecordsInit.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Record key word set and immutable object like init on property.
+            Nothing on record must be change its value after initialization.
+            Record, like a class, is reference type. This mean that the memory for the object is allocated on the heap, only memory address is stored on the stack.
+            </summary>
+        </member>
+        <member name="T:CorsoCSharp._22_Delegate">
+            <summary>
+            Simili ai puntatori di C. I delegati contengono l'indirizzo di memoria del metodo che ha la stessa firma del delegato stesso.
+            </summary>
+        </member>
+        <member name="T:CorsoCSharp.IPlayable">
+            <summary>
+            If a class implements an interface it must implement all method that aren't implemented yet.
+            
+            Common Interface        |   Short Description   
+            IComparable                 Define a comparison method that a type implements to order or sort its instances
+            IComparer                   Define a comparison method that a secondary type implements to order or sort instances of a primary type
+            IDisposable                 Define a disposal method to release unmanaged resources more efficiently tha waiting for a finalizer
+            IFormattable                Define a culture-aware method to format the value of an object into a string rapresentation
+            IFormatter                  Define method to convert an object to and from stram of bytes for storage or transfer
+            IFormatProvider             Define a method to format inputs based on a language and region
+            </summary>
+        </member>
+        <member name="T:CorsoCSharp._24_Struct">
+            <summary>
+            Una struct è identica alla classe, la differenza sta nella memoria in cui immagazzina le informazioni.
+            La classe utilizza l'heap, la struct lo stack.
+            Se i dati da contenere sono inferiori ai 16bytes deve essere utilizzata la struct per ottimizzare le performance.
+            Se una struttura usa type che non sono di tipo struct questi campi vengono allocati nello heap.
+            
+            Struct Type:
+                        - Number system type: byte, sbyte, short, ushort, int, uint, long, ulong, float, double, decimal
+                        - Other systemtype: char, DateTime, bool
+                        - System.Drawing types: Color, Point, Rectangle
+                        
+            La struct non può essere ereditata
+            </summary>
+        </member>
+        <member name="M:CorsoCSharp._29_ExtensionMethod.IsValidEmail(System.String)">
+            <summary>
+            Questo metodo, prende in input la stessa variabile che lo richiama, in questo caso email.
+            Viene definito ExtensionMethod in quanto sta estendendo le proprietà di una stringa.
+            Essendo string di tipo "sealed" si può estendere la sua funzionalità solo in questo modo.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CorsoCSharp._30_TextRegex.PatternMatchingRegex">
+            PAGE 332
+            
+             ^           = start of input
+             $           = end of input
+             \d          = single digit
+             \D          = single NON digit
+             \s          = whitespace
+             \S          = NON whitespace
+             \w          = word character
+             \W          = NON word character
+             [A-Za-z0-9] = Ranges of characters
+             [aeiou]     = Set of characaters
+             [^aeiou]    = NOT in set of characters
+             \^          = ^ character
+             .           = Any single character
+             \.  q       = . character
+             
+             +           = one or more
+             ?           = one or none
+             {3}         = exactly 3
+             {3,5}       = Three or five
+             {3,}        = at least three
+             {,3}        = Up to three
+             
+        </member>
+        <member name="T:CorsoCSharp._41_Images">
+            <summary>
+            Crea un'anteprima dell'immagine in scala di grigi. L'anteprima viene salvata nella directory dove sono presenti le immagini
+            </summary>
+        </member>
+        <member name="M:CorsoCSharp._45_Stream.WorkWithCompression">
+            <summary>
+            XML compression.
+            </summary>
+        </member>
+        <member name="M:CorsoCSharp._45_Stream.CompressionBrotli(System.Boolean)">
+            <summary>
+            XML compression Brotli. PAG. 317
+            </summary>
+        </member>
+    </members>
+</doc>

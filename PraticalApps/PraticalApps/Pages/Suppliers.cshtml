@@ -1,0 +1,18 @@
+﻿@page
+@model PraticalApps.Pages.SuppliersModel
+
+<div>
+    <h1>Suppliers</h1>
+    <table>
+        <thead>Company Name</thead>
+        <tbody>
+            @if(Model.Suppliers is not null)
+            {
+                @foreach(string name in Model.Suppliers)
+                {
+                    <tr><td>@name</td></tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

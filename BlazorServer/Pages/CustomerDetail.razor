@@ -1,0 +1,50 @@
+﻿<EditForm Model="@Customer" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator/>
+    <div class="form-group">
+        <label>Customer Id</label>
+        <div>
+            <InputText @bind-Value="@Customer.CustomerId" />
+            <ValidationMessage For="@(() => Customer.CustomerId)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Company Name</label>
+        <div>
+            <InputText @bind-Value="@Customer.CompanyName" />
+            <ValidationMessage For="@(() => Customer.CompanyName)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        <div>
+            <InputText @bind-Value="@Customer.Address" />
+            <ValidationMessage For="@(() => Customer.Address)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Country</label>
+        <div>
+            <InputText @bind-Value="@Customer.Country" />
+            <ValidationMessage For="@(() => Customer.Country)" />
+        </div>
+    </div>
+
+    <button type="submit" class="btn  btn-@ButtonStyle">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Customer? Customer { get; set; } = null;
+
+    [Parameter]
+    public string ButtonText { get; set; } = "Save Change";
+
+    [Parameter]
+    public string ButtonStyle { get; set; } = "info";
+
+    [Parameter]
+    public EventCallback OnValidSubmit { get; set; }
+}
