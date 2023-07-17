@@ -5,36 +5,37 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PraticalApps
 build_property.RootNamespace = PraticalApps
-build_property.ProjectDir = C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps\
+build_property.ProjectDir = C:\Users\Nicola\Desktop\WorkSpace\C#\Corso-CSharp\PraticalApps\PraticalApps\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nclru\source\repos\Corso-CSharp\PraticalApps\PraticalApps
+build_property.MSBuildProjectDirectory = C:\Users\Nicola\Desktop\WorkSpace\C#\Corso-CSharp\PraticalApps\PraticalApps
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nclru/source/repos/Corso-CSharp/PraticalApps/PraticalApps/Pages/index.cshtml]
+[C:/Users/Nicola/Desktop/WorkSpace/C\#/Corso-CSharp/PraticalApps/PraticalApps/Pages/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nclru/source/repos/Corso-CSharp/PraticalApps/PraticalApps/Pages/Shared/Error.cshtml]
+[C:/Users/Nicola/Desktop/WorkSpace/C\#/Corso-CSharp/PraticalApps/PraticalApps/Pages/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nclru/source/repos/Corso-CSharp/PraticalApps/PraticalApps/Pages/Shared/_Layout.cshtml]
+[C:/Users/Nicola/Desktop/WorkSpace/C\#/Corso-CSharp/PraticalApps/PraticalApps/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nclru/source/repos/Corso-CSharp/PraticalApps/PraticalApps/Pages/Shared/_ViewImports.cshtml]
+[C:/Users/Nicola/Desktop/WorkSpace/C\#/Corso-CSharp/PraticalApps/PraticalApps/Pages/Shared/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nclru/source/repos/Corso-CSharp/PraticalApps/PraticalApps/Pages/Suppliers.cshtml]
+[C:/Users/Nicola/Desktop/WorkSpace/C\#/Corso-CSharp/PraticalApps/PraticalApps/Pages/Suppliers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nclru/source/repos/Corso-CSharp/PraticalApps/PraticalApps/Pages/_ViewStart.cshtml]
+[C:/Users/Nicola/Desktop/WorkSpace/C\#/Corso-CSharp/PraticalApps/PraticalApps/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,6 +1,4 @@
-﻿
-
-using CorsoCSharp.EFCore.AutoGenModels;
+﻿using CorsoCSharp.EFCore.AutoGenModels;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Repositories;
 

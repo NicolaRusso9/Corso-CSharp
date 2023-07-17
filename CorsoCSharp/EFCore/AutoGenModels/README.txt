@@ -14,3 +14,11 @@ dotnet ef dbcontext scaffold "Filename=Northwind.db" Microsoft.EntityFrameworkCo
 	- --namespace CorsoCSharp.EFCore.AutoGenModels = namespace for classes
 	- --data-annotations = to use data annotations as well as the fluent API
 	- --context NorthwindContext = to rename the context 
+
+
+
+
+Per maggiore sicurezza utilizzare i secrets:
+	dotnet user-secrets init
+	dotnet user-secrets set ConnectionStrings:Fantacalcio "Data Source=.;Initial Catalog=Fantacalcio;Persist Security Info=true;Integrated Security=true;"
+	dotnet ef dbcontext scaffold Name=ConnectionStrings:Fantacalcio Microsoft.EntityFrameworkCore.SqlServer --output-dir ..\FantacalcioLib\Models --namespace FantacalcioLib.Models --data-annotations --context FantacalcioContext

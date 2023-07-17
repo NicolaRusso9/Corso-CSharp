@@ -2,7 +2,7 @@
 
 namespace CorsoCSharp.EFCore
 {
-    internal class NorthwindContext  : DbContext
+    internal class NorthwindContext : DbContext
     {
 
         // these properties map to tables in the database
